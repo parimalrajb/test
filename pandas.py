@@ -1,5 +1,5 @@
 import pandas as pd
-data=read_csv('data.csv')
-data.dtypes
-data.isna().sum()
 
+data = pd.read_csv('data.csv')
+print(data.dtypes)
+print(data.isna().sum())
